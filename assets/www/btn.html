@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	
+</head> 
+<body> 
+
+<div data-role="page" data-dom-cache="true" >
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index.html" data-role="button" data-icon="back" data-mini="true" data-inline="true">Back</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+	<div data-role="content" data-dom-cache="true" >
+	<table id="hor-zebra" summary="Employee Pay Sheet" name="no1">
+		<tr class="odd"><td>List all files and folders</td></tr>
+		<tr><td><code>ls -a</code></td></tr>	
+		<tr class="odd"><td>List files in folder</td></tr>
+		<tr><td><code>ls &lt;folderName&gt;</td></code></tr>
+		<tr class="odd"><td>Detailed List in Human readable format</td></tr>
+		<tr><td><code>ls -lh</code></td></tr>
+		<tr class="odd"><td>List out files having perticular extension</td></tr>
+		<tr><td><code>ls -l *.[extension_name]</code></td></tr>
+		<tr class="odd"><td>Change Directory</td></tr>
+		<tr><td><code>cd [directory_name]</code></td></tr>
+		<tr class="odd"><td>Go to Root</td></tr>
+		<tr><td><code>cd /</code></td></tr>
+		<tr class="odd"><td>Go up one folder, tip: ../../../</td></tr>
+		<tr><td><code>cd ..</code></td></tr>
+		<tr class="odd"><td>Print Present working directory</td></tr>
+		<tr><td><code>pwd</code></td></tr>
+		<tr class="odd"><td>Disk usage of folders, human readable</td></tr>
+		<tr><td><code>du -h</code></td></tr>
+		<tr class="odd"><td>Only show disc usage of folders</td></tr>
+		<tr><td><code>du -sh</code></td></tr>
+		</table>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+	<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+</body>
+</html>

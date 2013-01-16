@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+
+</head> 
+<body> 
+
+<div data-role="page" data-dom-cache="true" >
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index.html" data-role="button" data-icon="back" data-mini="true" data-inline="true">Back</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+	<div data-role="content" data-dom-cache="true" >
+	<table id="hor-zebra" summary="Employee Pay Sheet" name="no1">
+		<tr class="odd"><td>Search the content of all the files(Slow method)</td></tr>
+		<tr><td><code>locate [text]</code></td></tr>	
+		<tr class="odd"><td>Search for file(Slow method)</td></tr>
+		<tr><td><code>locate [file_name]</td></code></tr>
+		<tr class="odd"><td>Update database of files</td></tr>
+		<tr><td><code>sudo updatedb</code></td></tr>
+		<tr class="odd"><td>Find file(Fast method)</td></tr>
+		<tr><td><code>find -name "[file_name]"</code></td></tr>
+		<tr class="odd"><td>Find files who start with word text</td></tr>
+		<tr><td><code>find -name "[text]"</code></td></tr>
+		<tr class="odd"><td>Find files who end with word text</td></tr>
+		<tr><td><code>find -name "*[text]"</code></td></tr>
+		<tr class="odd"><td>Search from file Size (in ~)</td></tr>
+		<tr><td><code>find ~ -size +10M</code><br>{search files bigger than.. (M,K,G)}</td></tr>
+		<tr class="odd"><td>Search from last access</td></tr>
+		<tr><td><code>find -name "[file_type]" -atime -5</code><br>{'-' = less than, '+' = more than and nothing = exactly}</td></tr>
+		<tr class="odd"><td>Search only files or directory</td></tr>
+		<tr><td><code>find -type f</code></br><code>find -type d</code></td></tr>
+		</table>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+</body>
+</html>

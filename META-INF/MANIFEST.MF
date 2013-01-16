@@ -1,0 +1,309 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/js/transitions/slideup.js
+SHA1-Digest: rJGkzQWRlni1L7O+BfWsRX5NCfs=
+
+Name: assets/www/bfm.html
+SHA1-Digest: GGq+M1s+fiH1aDrauuC4T4U20e0=
+
+Name: assets/www/js/jquery.mobile.forms.select.js
+SHA1-Digest: cuEXoVo3o0NsoBYZyTnpNkP3vVA=
+
+Name: assets/www/btn.html
+SHA1-Digest: RvsuTI7FPb1+SmhVtI2aypLx6q8=
+
+Name: res/xml/plugins.xml
+SHA1-Digest: abqH4p13a9udWDiqgoSAlGmc6uo=
+
+Name: assets/www/jquery-1.7.1.min.js
+SHA1-Digest: nrmsWV6bVUTi3Hn/980tC0te9x8=
+
+Name: assets/www/js/jquery.mobile.zoom.iosorientationfix.js
+SHA1-Digest: 0hTsFmTnwWcdtuUktjN88dlP5CA=
+
+Name: assets/www/js/jquery.mobile.navigation.pushstate.js
+SHA1-Digest: I9Ait5PAbf6LkdKZ64i4UdP4tN8=
+
+Name: assets/www/js/jquery.mobile.zoom.js
+SHA1-Digest: eNI2Ci8Wdfb3HdyKAijYYhqb2i4=
+
+Name: assets/www/js/jquery.mobile.events.js
+SHA1-Digest: TCYPVQpyhLczv7saGVvOAfEEWDQ=
+
+Name: assets/www/js/transitions/pop.js
+SHA1-Digest: 6MsUbZh7XKJe6cil80fLeYLHb6o=
+
+Name: assets/www/js/jquery.mobile.dialog.js
+SHA1-Digest: XRPx1B6Zgwtpz5pq+wYKxEFbtSo=
+
+Name: assets/www/js/transitions/turn.js
+SHA1-Digest: exc1XhuVa0JvHBiu5bkmIHLaWZY=
+
+Name: assets/www/js/jquery.mobile.widget.js
+SHA1-Digest: OuAuBC6xqxmU4knvrbYq6+SPODU=
+
+Name: assets/www/js/jquery.mobile.docs.js
+SHA1-Digest: aB8wBgwu3XyY4hl0q7KMclY37Yc=
+
+Name: assets/www/jqm-docs.css
+SHA1-Digest: PTBY/EBRuQqJC6tTzm9KczMYQGk=
+
+Name: assets/www/js/jquery.mobile.controlGroup.js
+SHA1-Digest: 6P/x+5OYnwRCfKvENnLBPFz5INU=
+
+Name: assets/www/js/jquery.mobile.navigation.js
+SHA1-Digest: M3LJLCSD3FIJ0dvcDKMzvH5JcFc=
+
+Name: assets/www/js/jquery.tag.inserter.js
+SHA1-Digest: iBDEOvUHavr1Uwhm+eg9LIQioPs=
+
+Name: assets/www/sf.html
+SHA1-Digest: esntyGSHc/2yWj07/hL+3JbL/zw=
+
+Name: assets/www/js/transitions/flip.js
+SHA1-Digest: dYsrqlYqV7iFvPju/KgDWIoICew=
+
+Name: assets/www/jquery.mobile-1.1.0.min.css
+SHA1-Digest: u9lywPzFZKO8MyVwfNQ2/dDkwo0=
+
+Name: assets/www/js/jquery.mobile.listview.filter.js
+SHA1-Digest: TiLcENjDgPrm2cu+RInVRuYibIk=
+
+Name: assets/www/js/jquery.mobile.transitions.js
+SHA1-Digest: k5lPPIWx9BE7axQWNZQiTVdFYBI=
+
+Name: assets/www/js/jquery.mobile.support.js
+SHA1-Digest: jU7QkxxD7YbsqBu40ULRxW6OjTM=
+
+Name: assets/www/js/transitions/flow.js
+SHA1-Digest: CRSSBOZHSBU9afyyJD+V0NJ1aU0=
+
+Name: assets/www/js/jquery.mobile.grid.js
+SHA1-Digest: 31X6IgMbcy4UOeidJeef+rT4FEc=
+
+Name: assets/www/js/jquery.mobile.buttonMarkup.js
+SHA1-Digest: 59b8iS+sLMq+5CJ2YtGN4JFG5HE=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: TrdT/FED6s87e2bmCgCB1eZLxiI=
+
+Name: assets/www/js/jquery.mobile.forms.textinput.js
+SHA1-Digest: QccMEU3xdX3eXh9dUcck7QemlZA=
+
+Name: assets/www/js/jquery.mobile.forms.slider.js
+SHA1-Digest: onbG0541udw+k4x0+1qFngTLmSE=
+
+Name: assets/www/js/jquery.mobile.forms.select.custom.js
+SHA1-Digest: lsWBaDKp7jf5MoSg3yAiotEuZcQ=
+
+Name: assets/www/js/jquery.mobile.degradeInputs.js
+SHA1-Digest: hIRlEibUxCTFrZGQ1LaaNZNnM7w=
+
+Name: resources.arsc
+SHA1-Digest: 7Pel9H94MOdFFdMEWHSjw3fIDH8=
+
+Name: assets/www/js/jquery.mobile.js
+SHA1-Digest: zSBrKeSrCWoY/iYuRpNLZEFukmE=
+
+Name: assets/www/jquery.mobile-1.1.0.min.js
+SHA1-Digest: uCoLwheGMCuDGAogCLrRQsMBQDw=
+
+Name: assets/www/jquery.mobile.theme-1.1.0.css
+SHA1-Digest: EMac6maxLSAqC2LCpcn18Hgi5q4=
+
+Name: assets/www/images/icons-18-black.png
+SHA1-Digest: 2zOURmgG7TYicOGnxfSucQo6Lxg=
+
+Name: assets/www/js/jquery-1.7.1.js
+SHA1-Digest: tHcw/67EJyqKAXVq8u8T7OocTpI=
+
+Name: assets/www/js/jquery.mobile.collapsible.js
+SHA1-Digest: OXsKs8Yvlzc3AhoG2ZhKIzkoPoc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: jjH+XMXg0KW5SNfOjYFJM1QuhCw=
+
+Name: assets/www/jquery.mobile.css
+SHA1-Digest: iiKqz0RsaGmQxeLTiPZUiSPIZ7g=
+
+Name: assets/www/style.css
+SHA1-Digest: 8k2iTvPW9HOpZRgyvgkqh8/u1OY=
+
+Name: res/xml/cordova.xml
+SHA1-Digest: 2Z/LkO+10oBuUDnEaehfCtZF+vM=
+
+Name: assets/www/js/jquery.mobile.nojs.js
+SHA1-Digest: D1Vp4g+R0xhF/a4M0Z5XZxQISfY=
+
+Name: assets/www/js/jquery.mobile.listview.js
+SHA1-Digest: oNc9GAgnmUmQo+Th64rwOgs3SUs=
+
+Name: assets/www/js/jquery.mobile.page.sections.js
+SHA1-Digest: sWTwubLKhD0w4YzAJOdpQQSBE2w=
+
+Name: assets/www/js/jquery.mobile.fieldContain.js
+SHA1-Digest: tgS4CYV6bQ2+WG4it1OpU5Tjt5Q=
+
+Name: assets/www/js/events/touch.js
+SHA1-Digest: AGSCIgwgedNQThqvoZvjL8m4vTI=
+
+Name: assets/www/js/jquery.mobile.init.js
+SHA1-Digest: nCxh1oAZPbSIMWO9Lp+uuscwWHI=
+
+Name: assets/www/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: assets/www/js/jquery.mobile.transition.js
+SHA1-Digest: e0kPdgm9+s62GefpjYQzat3z6pk=
+
+Name: assets/www/js/jquery.mobile.forms.button.js
+SHA1-Digest: /crQz/mpxfFiDCz3QyJDlPOvDlE=
+
+Name: assets/www/fp.html
+SHA1-Digest: DOxJ9qQOTURUuWC67tsjp1d/X+o=
+
+Name: assets/www/js/jquery.mobile.define.js
+SHA1-Digest: 7ma/Q/+ukzJ/UqUV/eEz9XJGEF8=
+
+Name: assets/www/cordova-1.5.0.js
+SHA1-Digest: G+g69WCPiwHpfT9cps2Om/5fj3A=
+
+Name: assets/www/js/jquery.mobile.forms.checkboxradio.js
+SHA1-Digest: vSbVgXfXr0jEEy1ZaCphzO3valc=
+
+Name: classes.dex
+SHA1-Digest: 5K1Jm3PNa09yVPb4F6fU2fMnSBA=
+
+Name: assets/www/jquery.mobile.structure-1.1.0.min.css
+SHA1-Digest: o+z37ZNHlBpinZY9pwd4hXeQvCg=
+
+Name: assets/www/js/jquery.mobile.media.js
+SHA1-Digest: 9yqQdGqj7r+LS61n3gQsPU3xpCo=
+
+Name: assets/www/js/jquery.mobile.navbar.js
+SHA1-Digest: UOgNZQcFfAHMLqrM2e5hh0deRg4=
+
+Name: assets/www/js/events/throttledresize.js
+SHA1-Digest: PKUjQsxuzYVgpFrmjtAHDq45M44=
+
+Name: assets/www/pm.html
+SHA1-Digest: yNkOr19kS6Hy0kEJthxg90/+FPE=
+
+Name: assets/www/jquery.mobile-1.1.0.css
+SHA1-Digest: BGWybpE/K+ZRPZnaCmzs88277LY=
+
+Name: assets/www/images/icons-36-black.png
+SHA1-Digest: DGqbtw+P5PhIuHjyBMRH028+Ewk=
+
+Name: assets/www/images/icons-36-white.png
+SHA1-Digest: vIWVJEKtjCzYnYP40K7owpeZbWA=
+
+Name: assets/www/js/index.php
+SHA1-Digest: ysDG0D9WAJ3EjIWAyOTveKUtIZY=
+
+Name: assets/www/js/jquery-1.6.4.js
+SHA1-Digest: kh53AqyeTEpLygUre8g7AwREDuM=
+
+Name: assets/www/js/jquery.mobile.fixedToolbar.js
+SHA1-Digest: QCAHFj8Pg07lDmcM5Zlx/mSRNP4=
+
+Name: assets/www/js/jquery.mobile.core.js
+SHA1-Digest: nICvJzmLJlkLXszGsKcl+jbBlxw=
+
+Name: assets/www/js/jquery.ui.widget.js
+SHA1-Digest: o3XY6skkCAU2s10rnIp/wdAu35Q=
+
+Name: assets/www/js/transitions/slide.js
+SHA1-Digest: xYJNLtF89SC8MljEZXPTTyFeNlU=
+
+Name: assets/www/images/icons-18-white.png
+SHA1-Digest: Sg/1e3EgtouxOiw7H+43z5uv5Xo=
+
+Name: assets/www/about.html
+SHA1-Digest: 2FzqI8KeP1TnfhiAe1EqP7B88V8=
+
+Name: assets/www/esf.html
+SHA1-Digest: 6LyzG97rSL2mqd0wQXgrBsh3GZQ=
+
+Name: assets/www/js/jquery.mobile.vmouse.js
+SHA1-Digest: Q2FWpoqLEgQKwtoSw6tf1FvcsqQ=
+
+Name: assets/www/jquery.js
+SHA1-Digest: tHcw/67EJyqKAXVq8u8T7OocTpI=
+
+Name: assets/www/js/jquery.mobile.page.js
+SHA1-Digest: T3bzjS8blh1b/LFtqWJNkT/z3j0=
+
+Name: assets/www/images/ajax-loader.png
+SHA1-Digest: NQ0i8lCHscwfrHzUBOM75uVDUjg=
+
+Name: assets/www/jqm-docs.js
+SHA1-Digest: ZWekDOZ7050NFFwB+M5vcCaJx+U=
+
+Name: res/layout/main.xml
+SHA1-Digest: kLe/mxZaOi6PWPtY1Ew+fLNup6o=
+
+Name: assets/www/jquery.mobile.structure-1.1.0.css
+SHA1-Digest: NTURncPZdx1UTlQ/pvxYY/guSrY=
+
+Name: assets/www/index.html
+SHA1-Digest: r0kvVw2ea06NOLTpXcE4pPWFmuM=
+
+Name: assets/www/js/jquery.mobile.loader.js
+SHA1-Digest: nn2GUt+dCi90RHicySkq1P+NzfI=
+
+Name: assets/www/js/jquery.hashchange.js
+SHA1-Digest: Nl0u7qfiA5/qlrnY85rwdC5zIKA=
+
+Name: assets/www/jquery.mobile.theme-1.1.0.min.css
+SHA1-Digest: tMvY+V/x/a+7x2VvV6uPMSWdjGs=
+
+Name: assets/www/jquery.mobile-1.1.0.js
+SHA1-Digest: VHpanyCp5lS6t4EsXSbYUaenBp8=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: dli8VF0kLVoSN/xqWwSL7o1IZW0=
+
+Name: assets/www/js/transitions/slidefade.js
+SHA1-Digest: B1ufPHfJHzufWLBX/p9BdI7XaRc=
+
+Name: assets/www/js/jquery.mobile.links.js
+SHA1-Digest: mK9ynKVPaMMDCHI7GQJkw1ACFzg=
+
+Name: assets/www/js/jquery.mobile.collapsibleSet.js
+SHA1-Digest: iLl4l2UWWzEDTJfrPHChWvgcR6U=
+
+Name: assets/www/js/jquery.mobile.popup.js
+SHA1-Digest: BZ7pDfkLDPAdTblmNI6AOEELf+Q=
+
+Name: assets/www/js/jquery.mobile.support.orientation.js
+SHA1-Digest: UeS1M424zwCb5gU2Ws+0MHJEI7U=
+
+Name: assets/www/js/transitions/slidedown.js
+SHA1-Digest: R0x3TEcslZiVWuS5wwrIwQ0/1nQ=
+
+Name: assets/www/js/events/orientationchange.js
+SHA1-Digest: kGbXKUYVz4UMV51zq0LzJt6yXc4=
+
+Name: assets/www/data.html
+SHA1-Digest: P+TI0wCmu16jmYmOI8eUYzioXbM=
+
+Name: assets/www/js/jquery.js
+SHA1-Digest: tHcw/67EJyqKAXVq8u8T7OocTpI=
+
+Name: assets/www/js/jquery-1.7.2.js
+SHA1-Digest: DXiW4rsj+I4m5SsioHU1CzVN9Ec=
+
+Name: assets/www/js/jquery.mobile.listview.autodividers.js
+SHA1-Digest: PWsI9NtZ/BXFgb5ziVzeIYNQhMc=
+
+Name: assets/www/ts.html
+SHA1-Digest: 2FAb2bma674BuXFD4Ax5CTBKOWU=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: aRJHj7rlXahOHTTJt3V1ymImRQA=
+
+Name: assets/www/ua.html
+SHA1-Digest: DOxJ9qQOTURUuWC67tsjp1d/X+o=
+

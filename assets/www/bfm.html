@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+
+</head> 
+<body> 
+
+<div data-role="page" data-dom-cache="true" >
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index.html" data-role="button" data-icon="back" data-mini="true" data-inline="true">Back</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+	<div data-role="content" data-dom-cache="true" >
+	<table id="hor-zebra" summary="Employee Pay Sheet" name="no1">
+		<tr class="odd"><td>Show content of file</td></tr>
+		<tr><td><code>cat [file_name]</code></td></tr>	
+		<tr class="odd"><td>Show file content from the top</td></tr>
+		<tr><td><code>head -n [no_of_lines] [file_name]</td></code></tr>
+		<tr class="odd"><td>Show file content from the bottom</td></tr>
+		<tr><td><code>tail -n [no_of_lines] [file_name]</code></td></tr>
+		<tr class="odd"><td>Create Directory/Folder</td></tr>
+		<tr><td><code>mkdir [directory_name]</code></td></tr>
+		<tr class="odd"><td>Copy file</td></tr>
+		<tr><td><code>cp [source_file] [destination_file]</code></td></tr>
+		<tr class="odd"><td>Copy folder</td></tr>
+		<tr><td><code>cp -R [source_dir] [destination_dir]</code></td></tr>
+		<tr class="odd"><td>Move file </td></tr>
+		<tr><td><code>mv [source_file] [destination_file]</code></td></tr>
+		<tr class="odd"><td>Delete file</td></tr>
+		<tr><td><code>rm [file_name]</code></td></tr>
+		<tr class="odd"><td>Force deletion of file</td></tr>
+		<tr><td><code>rm -f [file_name]</code></td></tr>
+		<tr class="odd"><td>Delete Folder</td></tr>
+		<tr><td><code>rm -r [dir_name]</code></td></tr>
+		<tr class="odd"><td>Create zero byte(empty) file</td></tr>
+		<tr><td><code>touch [file_name]</code></td></tr>
+		<tr class="odd"><td>Link file(Physical)</td></tr>
+		<tr><td><code>ln [file1] [file2]</code></td></tr>
+		<tr class="odd"><td>Link file(Symbolic)</td></tr>
+		<tr><td><code>ln -s [file1] [file2]</code></td></tr>
+		</table>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="cordova-1.5.0.js"></script>
+		<script type="text/javascript">
+		 function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+		 function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+	navigator.app.exitApp();
+    }
+		</script>
+
+</head> 
+<body onload="onLoad()"> 
+
+<div data-role="page" data-dom-cache="true">
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index1.html" data-role="button" data-icon="home" data-iconpos="notext" data-mini="true" data-inline="true">Home</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+	<li><a href="data.html">Basic Terminal Shortcuts</a></li>
+	<li><a href="btn.html">Basic Terminal Navigation</a></li>
+	<li><a href="bfm.html">Basic File Manipulation</a></li>
+	<li><a href="sf.html">Searching Files </a></li>
+	<li><a href="esf.html">Extract,sort and filter data </a></li>
+	<li><a href="ts.html">Time related commands </a></li>
+	<li><a href="pm.html">Process Management </a></li>
+	<li><a href="ua.html">User Accounts </a></li>
+	<li><a href="fp.html">File permissions</a></li>
+</ul>
+</div>
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+		
+</body>
+</html>

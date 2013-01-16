@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		
+</head> 
+<body> 
+
+<div data-role="page" data-dom-cache="true" >
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index.html" data-role="button" data-icon="back" data-mini="true" data-inline="true">Back</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+	<div data-role="content" data-dom-cache="true" >
+	<table id="hor-zebra" summary="Employee Pay Sheet" name="no1">
+		<tr class="odd"><td>Search for text in file</td></tr>
+		<tr><td><code>grep [text] [file_name]</code></br>{-i = Doesn't consider uppercase words </br> -I = exclude binary files}</td></tr>	
+		<tr class="odd"><td>Search for file names with occurence of the text</td></tr>
+		<tr><td><code>grep -r [text] [dir_name]</td></code></tr>
+		<tr class="odd"><td>Search start of lines with the word text</td></tr>
+		<tr><td><code>grep -E [text] [file_name]</code></td></tr>
+		<tr class="odd"><td>Show lines containing numbers 0-4</td></tr>
+		<tr><td><code>grep -E [0-4] [file_name]</code></td></tr>
+		<tr class="odd"><td>Retrieve all lines with alphabetical letters</td></tr>
+		<tr><td><code>grep -E [a-zA-Z] [file_name]</code></td></tr>
+		<tr class="odd"><td>Sort the content of files</td></tr>
+		<tr><td><code>sort [file_name]</code></td></tr>
+		<tr class="odd"><td>Write result to a file</td></tr>
+		<tr><td><code>sort -o [source_file] [output_file]</code></td></tr>
+		<tr class="odd"><td>Sort in reverse,randomly and numbers</td></tr>
+		<tr><td><code>sort -r [file_name]</code></br><code>sort -R [file_name]</code></br><code>sort -n [file_name]</code></td></tr>
+		<tr class="odd"><td>Count words in file</td></tr>
+		<tr><td><code>wc [file_name]</code></br>{Other Options: -l (lines), -w (words), -c (byte size), -m (number of characters)}</td></tr>
+		<tr class="odd"><td>Cut a part of file</td></tr>
+		<tr><td><code>cut -c 2-5 names.txt </code> </br>{It cut the characters 2 to 5 of each line}</br> Other options: -d (delimiter), -f (# of field to cut)</td></tr>
+		</table>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+</body>
+</html>

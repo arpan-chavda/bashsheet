@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+
+</head> 
+<body> 
+
+<div data-role="page" data-dom-cache="true" >
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index.html" data-role="button" data-icon="back" data-mini="true" data-inline="true">Back</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+	<div data-role="content" data-dom-cache="true" >
+	<table id="hor-zebra" summary="Employee Pay Sheet" name="no1">
+		<tr class="odd"><td>View current date and time of system</td></tr>
+		<tr><td><code>date</code></td></tr>	
+		<tr class="odd"><td>Options with date command</td></tr>
+		<tr><td><code>date +%H</code>&nbsp;&nbsp; {shows hour}<br>
+		<code>date +%M</code>&nbsp;&nbsp; {shows minutes}<br>
+		<code>date +%S</code>&nbsp;&nbsp; {shows seconds}<br>
+		For more info: <code> man date</code>
+		</td></tr>
+		<tr class="odd"><td>Execute program at another time</td></tr>
+		<tr><td><code>at [time_of_execution] [ENTER]
+		<br>[ENTER_COMMAND] [ENTER]&nbsp;&nbsp;&nbsp; {Repeat this step if you want more} <br>
+		<br> CTRL+D to close input
+		</code>
+		
+						</td></tr>
+		<tr class="odd"><td>Show a list of jobs waiting to be executed</td></tr>
+		<tr><td><code>atq</code></td></tr>
+		<tr class="odd"><td>To remove a job</td></tr>
+		<tr><td><code>atrm [no_of_job]</code></td></tr>
+		<tr class="odd"><td>Pause between commands</td></tr>
+		<tr><td><code>sleep<br>
+		touch file; sleep 10; rm file</code>&nbsp;&nbsp;{Example}</td></tr>
+		<tr class="odd"><td>Execute a command regularly</td></tr>
+		<tr><td><code>crontab<br>Options: -e = modify the crontab<br>-l = view current crontab<br>-r = delete you crontab</code><br>Syntax of crontab:<br>[Minutes] [Hours] [day_of_month] [day_of_week(0-6,
+Modify: 0 = Sunday)] [COMMAND]</td></tr>
+		<tr class="odd"><td>Execute command in background</td></tr>
+		<tr><td><code>Put ;& at the end of command like cp *.txt &</code><br>{'-' = less than, '+' = more than and nothing = exactly}</td></tr>
+		</table>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+</body>
+</html>

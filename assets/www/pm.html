@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Bashsheet</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="style.css" />
+
+</head> 
+<body> 
+
+<div data-role="page" data-dom-cache="true" >
+
+	<div data-role="header" data-dom-cache="true">
+	<a href="index.html" data-role="button" data-icon="back" data-mini="true" data-inline="true">Back</a>		
+		<h1>Bashsheet</h1><a href="about.html" transition="fade" data-role="button" data-icon="info" data-iconpos="notext" data-mini="true" data-inline="true">Info</a>
+		</div>
+	<div data-role="content" data-dom-cache="true" >
+	<table id="hor-zebra" summary="Employee Pay Sheet" name="no1">
+		<tr class="odd"><td>Who is logged on and what they are doing</td></tr>
+		<tr><td><code>w</code></td></tr>	
+		<tr class="odd"><td>Graphic representation of system load average</td></tr>
+		<tr><td><code>tload</td></code></tr>
+		<tr class="odd"><td>Static process list</td></tr>
+		<tr><td><code>ps</code></br>Options:</br> -ejH = show process hierarchy </br> -u = process's from current user</td></tr>
+		<tr class="odd"><td>Dynamic process list</td></tr>
+		<tr><td><code>top</code></td></tr>
+		<tr class="odd"><td>Get PID of application</td></tr>
+		<tr><td><code>ps -u [u_name] | grep [app_name]</code></td></tr>
+		<tr class="odd"><td>Kill a process(Non-violent)</td></tr>
+		<tr><td><code>kill [PID]</code></td></tr>
+		<tr class="odd"><td>Kill a process(violent)</td></tr>
+		<tr><td><code>kill -9 <PID></code></td></tr>
+		<tr class="odd"><td>Kill multiple processes</td></tr>
+		<tr><td><code>killall </code></td></tr>
+		<tr class="odd"><td>Close a computer</td></tr>
+		<tr><td><code>sudo halt</code></td></tr>
+		<tr class="odd"><td>Reboot a computer</td></tr>
+		<tr><td><code>sudo reboot</code></td></tr>
+		</table>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-dom-cache="true">
+		<h4>&copy;2012-<a href="http://codejar-lab.in" target="_blank">Codejar Lab(Arpan Chavda)</a></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.mobile-1.1.0.min.js"></script>
+</body>
+</html>
